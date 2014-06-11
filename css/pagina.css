@@ -1,0 +1,14 @@
+.letra{
+	font-family: 'Rosario', sans-serif;
+}
+#fondo1´{background-image: url('fondo1.jpg'); 
+background-repeat: no-repeat; 
+background-size: 100%; }
+
+.cuadro {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #f2f2f2; }

@@ -1,0 +1,77 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clinica de tutorias</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+       <link rel="stylesheet" href="css/pagina.css" />
+       <link href='http://fonts.googleapis.com/css?family=Euphoria+Script|Ubuntu+Mono|Rum+Raisin|Fugaz+One|Gochi+Hand|Muli|Sofadi+One|Nothing+You+Could+Do|Metrophobic|Inconsolata|Englebert|Rosario' rel='stylesheet' type='text/css'>       
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+<body>
+<nav>
+  <div class="row">
+    <div class="small-8 large-12 columns">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">SIPTCA </a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<form action="login.php" method="post">
+   <div class="row">
+    <div class="large-4 small-8 columns">
+    <br></br>
+      <label><h4>USUARIO <SMALL>Requerido</small><h4>
+        <input type="text" placeholder="Usuario" name="usu" />
+      </label>
+      <label><h4>CONTRASEÑA <SMALL>Requerido</small><h4>
+        <input type="password" placeholder="Contraseña" name="cont"/>
+      </label>
+      <button type="submit">Entrar</button>
+   </div>
+    </form>
+       <div class="large-8 small-8 columns panel letra">
+
+     El sistema de información que será <b>SIPTCA</b> (sistema informativo de programas de tutorías y control administrativo), tendrá como objetivos:
+    <br></br>
+  <br>1.       Facilitar el control interno de los clientes, por medio del módulo administrativo.</br>
+  <br>2.       Brindarle información a los usuarios, sobre las novedades de la empresa.</br>
+  <br>3.       Brindar la oportunidad al usuario de interactuar, con los tutores y PQR para resolver sus dudas.</br>
+  <br>Los usuarios, tutores  y administradores podrán ingresar al sistema mediante un usuario y contraseña previamente asignado.</br>
+
+  </div> 
+  </div> 
+  </div>
+  <br ></br>
+<div class="row">
+  <div class="small-4 large-4 columns"><img src="persona.jpg"></div>
+  <div class="small-4 large-4 columns"><img src="persona1.jpg"></div>
+  <div class="small-4 large-4 columns"><img src="persona2.jpg"></div>
+</div>
+<br></br>
+<footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>@siptca</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Ayuda</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Terminos</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Directorio</a></li>
+          </ul>
+        </div>
+        <div>Version 1.0 </div>
+      </div>
+    </div> 
+</body>
+</html>
