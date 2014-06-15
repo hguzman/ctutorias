@@ -62,7 +62,7 @@ $result = mysql_query($sql);
 					    <tr>
 					      <td><?= $row[0] ?></td>
 					      <td><?= $row[2] ?></td>					      
-					      <td><a href="#">Editar</a></td>					      
+					      <td><a href="editarusuario.php?usu=<?php echo $row[0]; ?>&con=<?php echo $row[1]; ?>&per=<?php echo $row[2]; ?>">Editar</a></td>					      
 					      <td><a href="eliminarusuario.php?id=<?php echo $row[0]; ?>">Eliminar</a></td>					      
 					    </tr>					
 					<?php
